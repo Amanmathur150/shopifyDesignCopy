@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightpink;
+  align-items: center;
+  padding: 10px 30px;
+  font-size: medium; }
+  .nav .dailyleft .logo {
+    font-size: 40px;
+    font-weight: 600; }
+  .nav .dailymiddle {
+    display: flex;
+    justify-content: space-between;
+    width: 40%; }
+    .nav .dailymiddle :hover {
+      color: blue;
+      cursor: pointer; }
+    .nav .dailymiddle .middleTopitem {
+      position: relative; }
+      .nav .dailymiddle .middleTopitem .highligter {
+        border-radius: 20%;
+        padding: 3px 10px;
+        font-weight: 500;
+        display: inline;
+        position: absolute;
+        background-color: orange;
+        font-size: 10px;
+        color: white;
+        right: -20px;
+        top: -15px; }
+
+.container {
+  margin: auto; }
+  .container .banner {
+    margin: auto; }
+    .container .banner img {
+      width: 100%; }
+
+.shopingItems {
+  border: 2px solid red;
+  margin: 0px 7%;
+  height: 1200px; }
+  .shopingItems .impression {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; }
+    .shopingItems .impression .imageLeft {
+      display: flex;
+      align-items: center;
+      width: 50%; }
+      .shopingItems .impression .imageLeft img {
+        width: 100%; }
+    .shopingItems .impression .imageright {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-content: space-between;
+      width: 49%; }
+      .shopingItems .impression .imageright img {
+        width: 46%; }

@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightpink;
+  align-items: center;
+  padding: 10px 30px;
+  font-size: medium;
+
+  .dailyleft{
+    .logo{
+      font-size: 40px;
+      font-weight: 600;  
+      
+    }
+  }
+
+  .dailymiddle {
+    display: flex;
+    justify-content: space-between;
+    :hover{
+      color: blue;
+      cursor: pointer;
+    }
+    width: 40%;
+
+    .middleTopitem {
+      position: relative;
+      .highligter {
+        border-radius: 20%;
+        padding: 3px 10px;
+        font-weight: 500;
+        display: inline;
+        position: absolute;
+        background-color: rgb(255, 165, 0);
+        font-size: 10px;
+        color: white;
+        right: -20px; 
+        top: -15px;
+      }
+    }
+  }
+}
+
+.container {
+  margin: auto;
+
+  .banner {
+    margin: auto;
+
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.shopingItems{
+  border: 2px solid red;
+  margin: 0px 7%;
+  height: 1200px;
+
+
+  .impression{
+
+    margin-top: 20px ;
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    .imageLeft{
+      display: flex;
+      align-items: center;
+      width: 50%;
+      img{
+        width: 100%;
+      }
+    }
+
+    .imageright{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-content: space-between;
+      width: 49%;
+      img{
+        width: 46%;
+      }
+    }
+  }
+}
